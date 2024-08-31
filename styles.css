@@ -1,0 +1,188 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Encabezado */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+header nav a {
+  color: #fff;
+  font-weight: bold;
+}
+section {
+  margin: 30px 0;
+}
+
+/* Sección Acerca de */
+#sobre-mi {
+  padding: 20px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+  background-color: #f4eeee;
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.descripcion p {
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+.boton-cv {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.boton-cv:hover {
+  background-color: #333;
+}
+
+/* Sección Habilidades */
+#habilidades {
+  padding: 2rem;
+  text-align: center;
+}
+
+.habilidad {
+  margin-bottom: 2rem;
+}
+
+.barra-progreso {
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 1rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.progreso {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 1rem;
+  border-radius: 5px;
+  height: 100%;
+}
+
+/* Pie de página */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.redes-sociales {
+  margin-top: 1rem;
+}
+
+.redes-sociales a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.redes-sociales a:hover {
+  color: #ddd;
+}
+.container {
+  max-width: 750px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center align the container */
+  padding: 20px; /* Add some padding for spacing */
+  width: 90%;
+}
+
+/* Consultas de medios para dispositivos móviles */
+@media (max-width: 768px) {
+  header nav ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  .foto-perfil {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  header nav ul li {
+    font-size: 0.9rem;
+  }
+
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+  }
+}
